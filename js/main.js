@@ -10,7 +10,7 @@ function initMap() {
     // The marker, positioned at location
     const marker = new google.maps.Marker({ position: loc, map: map });
   }
-$('#navbar a').on('click', function(event) {
+$('a').on('click', function(event) {
     if (this.hash !== '') {
       event.preventDefault();
   
